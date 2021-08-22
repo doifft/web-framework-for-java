@@ -2,12 +2,12 @@ var:
   lang: en-US
   db-name: wf
   #db-user: ${MYSQL_USER:root}
-  #db-password: ${MYSQL_PASSWORD:safe@701}
+  #db-password: ${MYSQL_PASSWORD:root}
   db-user: ${MYSQL_USER:postgres}
   db-password: ${MYSQL_PASSWORD:postgres}
-  ft-path: /Users/kaiwensun/Downloads/xxx
+  ft-path: /xxx
   upload-disabled: false
-  upload-path: /Users/kaiwensun/Downloads/xxx
+  upload-path: /xxx
 
 # EMBEDDED SERVER CONFIGURATION (ServerProperties)
 server:
